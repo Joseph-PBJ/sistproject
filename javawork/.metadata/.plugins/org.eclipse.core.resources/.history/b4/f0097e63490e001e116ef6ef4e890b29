@@ -1,0 +1,21 @@
+package day0619;
+
+public class ScannerMyAge_05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * 당신의 이름은? 박병주
+		 * 당신의 출생년도는? 1998년
+		 * ========================================
+		 * 이름: 박병주
+		 * 현재년도: 2023년
+		 * 나이: 25세
+		 */
+		
+		
+		
+	}
+
+}

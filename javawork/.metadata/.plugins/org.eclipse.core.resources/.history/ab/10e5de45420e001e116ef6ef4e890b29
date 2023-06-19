@@ -1,0 +1,39 @@
+package day0619;
+
+import java.util.Scanner;
+
+public class KeyBoardIn_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		// Scanner sc = new Scanner(System.in);
+	    // int i = sc.nextInt();   => 스캐너는 이것만 기억하면 됨!
+		
+		// 스캐너는 문자열이나 숫자를 모두 키보드로 입력받으려 할때 생성하는 것
+		
+		Scanner sc=new Scanner(System.in); // 스캐너 입력하려면 반드시 써줘야 하는 문장
+		
+		// 변수
+		String name; // 원래는 string name="홍길동" 등등 썼지만 스캐너 사용하면 안 써도 됨 or string name=null
+		int age;
+		
+		// 출력(출력은 출력인데 입력문임)
+		
+		System.out.print("이름을 입력해 보세요==>"); // printIn을 안하면 바로 옆에 입력됨
+		name=sc.nextLine(); //nextline=> 라인을 내려주는 듯(엔터 역할) 
+		// 위 문장은 한 줄을 문자로 읽어오는 것임(공백도 ok)
+		
+		System.out.println("나이를 입력해 보세요==>");
+		age=sc.nextInt();
+		
+		// 최종 출력
+		
+		System.out.println("내 이름은 "+name+"입니다");
+		System.out.println("내 나이는 "+age+"세 입니다");
+		
+		
+	}
+
+}

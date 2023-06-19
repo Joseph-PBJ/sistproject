@@ -1,0 +1,31 @@
+package day0619;
+
+import java.util.Scanner;
+
+public class OperTest_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 삼항연산자로 조건 12개.. 태어난 년도로 띠 구해보기
+		// 로직에서는 언제나 시작은 원숭이 띠
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int myYear,age;
+		String name,ddi;
+		
+		System.out.print("이름입력: ");
+		name=sc.nextLine();
+		
+		System.out.print("태어난 년도 입력: ");
+		myYear=sc.nextInt();
+		
+		
+		
+		
+		
+		
+	}
+
+}

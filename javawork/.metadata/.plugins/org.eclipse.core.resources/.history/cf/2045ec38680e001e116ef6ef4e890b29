@@ -1,0 +1,26 @@
+package day0619;
+
+import java.util.Scanner;
+
+public class QuizOper_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * 이름입력
+		 * 박병주
+		 * 키 
+		 * 177.5
+		 * 
+		 * **학생 키 정보**
+		 * 이름: 박병주
+		 * 키: 177.5cm
+		 * 
+		 */
+		
+		Scanner sc=new Scanner(System.in)
+		
+	}
+
+}
